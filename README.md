@@ -76,12 +76,9 @@ If you want to modify the credentials for the test, you can do so directly in th
 ## Project Structure
 
 ```
-/saucedemo-playwright-tests
+/netgroup-test-task
   ├── /tests
-  │   ├── successful-login.spec.js
-  │   ├── failed-login.spec.js
-  │   └── cart-operations.spec.js
-  ├── /node_modules
+  │   ├── saucedemo.spec.js
   ├── package.json
   ├── playwright.config.js
   └── README.md
