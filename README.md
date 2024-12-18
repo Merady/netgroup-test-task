@@ -49,25 +49,11 @@ npx playwright test
 
 This will run all the tests in the project.
 
-### 4. Running Specific Test
-
-If you want to run a specific test, use the `--test` flag:
-
-```bash
-npx playwright test <test-name>.spec.js
-```
-
-For example, to run the test for successful login:
-
-```bash
-npx playwright test successful-login.spec.js
-```
-
-### 5. View Test Results
+### 4. View Test Results
 
 Once the tests complete, you will see the results in the terminal. Playwright will output detailed information about which tests passed and which failed.
 
-### 6. Customizing Credentials
+### 5. Customizing Credentials
 
 By default, the test extracts credentials (usernames) from the `#login_credentials` element on the Saucedemo login page. If the credentials extraction fails or you wish to change the default credentials, the script will use the fallback credentials: `['standard_user', 'locked_out_user']`.
 
